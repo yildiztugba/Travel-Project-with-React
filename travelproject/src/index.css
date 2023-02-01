@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+
 }
 
 code {
@@ -28,8 +30,32 @@ color: #FFFFFF;
 
 
 }
+
+.session{
+  margin:0px;
+  padding:0px;
+  width: 400px;
+}
+.sameLine{
+  display: inline-flex;
+}
 .image{
   width: 125px;
   height: 168px;
   border-radius: 5px;
+}
+.table {
+   display: table;
+}
+
+.row {
+   display: table-row;
+}
+
+.cell {
+   display: table-cell;
+}
+.row,
+.cell {
+  padding: 10px;
 }
