@@ -1,5 +1,4 @@
 import react from "react"
-
 export default function Card(props){
 console.log(props)
 return(
@@ -10,7 +9,7 @@ return(
         </div>
         <div className="content"> 
             <div className="sameLine">
-                <img src="../../public/images/redicon.png"/>
+                <img src= {require ("../images/icon.png")} className="redIcon" />
                 <h4>{props.item.location}</h4>
                 <h5>View on Google Maps</h5>
             </div>
