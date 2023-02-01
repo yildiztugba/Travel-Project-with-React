@@ -3,8 +3,8 @@ import react from "react"
 export default function Card(props){
 console.log(props)
 return(
-<div className="Session">
-<img src=""/>
+<div className="session">
+<img src={props.item.imageUrl} alt="location" className="image"/>
 <img src=""/>
 <h4>{props.item.location}</h4>
 <h5>View on Google Maps</h5>

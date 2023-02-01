@@ -28,3 +28,8 @@ color: #FFFFFF;
 
 
 }
+.image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
