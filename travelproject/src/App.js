@@ -7,6 +7,7 @@ import data from "./data"
 function App() {
 const card = data.map((item)=>{
   return <Card 
+        key= {item.key}
         item={item}/>
 })
 
