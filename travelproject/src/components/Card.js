@@ -1,8 +1,11 @@
 import react from "react"
 
 export default function Card(){
+
 return(
-    <h1>card</h1>
+<>
+<h1>card</h1>
+</>
 )
 
 }
