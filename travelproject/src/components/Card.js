@@ -6,11 +6,11 @@ return(
 <div className="Session">
 <img src=""/>
 <img src=""/>
-<h4></h4>
-<h5></h5>
-<h2></h2>
-<h3></h3>
-<p></p>
+<h4>{props.item.location}</h4>
+<h5>View on Google Maps</h5>
+<h2>{props.item.title}</h2>
+<h3>{props.item.startDate} - {props.item.endDate}</h3>
+<p>{props.item.description}</p>
 </div>
 )
 
