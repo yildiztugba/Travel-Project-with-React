@@ -1,8 +1,12 @@
 import react from "react"
 
+
 export default function Navbar(){
 return(
-    <h1>Navbar</h1>
+    <nav>
+    <img src="../../public/images/world.jpeg" />
+    <h1>My travel Journey</h1>
+    </nav>
 )
     
 }
